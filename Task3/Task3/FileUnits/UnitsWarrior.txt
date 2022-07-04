@@ -1,0 +1,11 @@
+﻿Archer,25,100,150
+Swordsman,20,200,200
+Archer,25,100,150
+Archer,25,100,150
+Archer,25,100,150
+Swordsman,20,200,200
+WizardWarrior,30,80,210
+Balista,40,300,450
+Balista,40,300,450
+WizardWarrior,30,80,210
+ElephantRider,30,450,500

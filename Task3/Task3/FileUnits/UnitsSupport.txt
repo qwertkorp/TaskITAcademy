@@ -1,0 +1,7 @@
+﻿WizardSupport,5,90,180
+Prist,6,110,200
+Fairy,2,50,70
+WizardSupport,5,90,180
+Fairy,2,50,70
+Prist,6,110,200
+Prist,6,110,200
