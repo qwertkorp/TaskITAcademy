@@ -37,14 +37,18 @@ namespace Task3
         static void SortArmy(List<Unit> army)
         {
             Console.WriteLine("Army sorting by damage and heal:");
-            List<Unit> sortArmy = army;
+            var sortArmyDamage = army.OfType<Warrior>().ToList();
+            var sortArmyHeal = army.OfType<Support>().ToList();
+            sortArmyDamage.Sort();
             
-            sortArmy.Sort();
-
-
-            foreach (var item in sortArmy)
+            foreach (var item1 in sortArmyDamage)
             {
-                item.Print();
+                item1.Print();
+            }
+            sortArmyHeal.Sort();
+            foreach (var item2 in sortArmyHeal)
+            {
+                item2.Print();
             }
         }
         static void Search(List<Unit> units)

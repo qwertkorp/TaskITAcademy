@@ -17,22 +17,7 @@ namespace Task3
         {
             return Heal.CompareTo(support.Heal);
         }
-        public override int CompareTo(Unit unit)
-        {
-            if (unit is Support support)
-            {
-                return CompareTo(support);
-            }
-            else if(unit is Warrior warrior)
-            {
-                return warrior.CompareTo(warrior);
-            }
-            else
-            {
-                return base.CompareTo(unit);
-            }
-            
-        }
+       
         public override void Print()
         {
             Console.Write($"Heal = {Heal}, ");

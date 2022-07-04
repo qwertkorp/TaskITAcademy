@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task3
 {
-    public abstract class Unit : IComparable<Unit>
+    public abstract class Unit
     {
         public string Name { get; set; }
         public int Cost { get; set; }
@@ -17,16 +17,10 @@ namespace Task3
             Name = name;
             Health = health;
         }
-
         public virtual void Print()
         {
             Console.WriteLine($"Name = {Name}, Cost = {Cost}, Health = {Health}");
-        }
-
-        public virtual int CompareTo(Unit unit)
-        {
-            return 0;
-        }
+        } 
 
     }
 }
